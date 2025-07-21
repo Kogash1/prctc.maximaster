@@ -68,11 +68,11 @@ label {
 
 input[type="number"] {
   width: 200px;
-  padding: 5px; /* Уменьшенный padding */
-  height: 25px; /* Фиксированная высота */
+  padding: 5px; 
+  height: 25px; 
   background-color: white;
-  border: 1px solid black; /* Чёрная рамка */
-  border-radius: 0; /* Убрали скругление */
+  border: 1px solid black; 
+  border-radius: 0;
   box-sizing: border-box;
 }
 
