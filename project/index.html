@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retro Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+  <nav class="main-nav"> <!-- Навигация -->
+	<div class="divider"></div>
+    <ul>
+      <li><a href="#about">ABOUT ME</a></li>
+      <li><a href="#portfolio">PORTFOLIO</a></li>
+
+      <li class="logo">
+        <img src="img/logo.png" alt="JD Logo" />
+      </li>
+
+      <li><a href="#blog">MY BLOG</a></li>
+      <li><a href="#contact">CONTACT ME</a></li>
+    </ul>
+	
+  </header>
+  
+  </nav>
+
+
+  <section class="hero">
+	<div class="divider reverse"></div> <!-- Верхняя линия  -->
+	<img class="retro" src="img/retro.png" alt="Retro"></img><br>
+	<div class="ribbon-container">
+		<img class="ribbon" src="img/ribbon.png" alt="Ribbon">
+		<p class="subheading">Old Style Portfolio</p>
+	</div>
+	 <article class="gallery">
+			<div class="frame"></div>
+            <!-- Слайд 1 -->
+            <div id="slide1" class="slide active">
+                <figure class="placeholder">
+                    <img src="img/photo1.jpg" alt="Фото 1">
+                </figure>
+            </div>
+            
+            <!-- Слайд 2 -->
+            <div id="slide2" class="slide">
+                <figure class="placeholder">
+                    <img src="img/photo2.jpg" alt="Фото 2">                   
+                </figure>
+            </div>
+            
+            <!-- Навигация -->
+            <nav class="pagination">
+                <a href="#slide1" class="arrow prev" id="prev-btn">
+                    <img src="img/LArrowIn.png" alt="Назад" class="inactive-arrow">
+                    <img src="img/LArrow.png" alt="Назад" class="active-arrow">
+                </a>
+                <a href="#slide2" class="arrow next" id="next-btn">
+                    <img src="img/RArrow.png" alt="Вперёд" class="active-arrow">
+                    <img src="img/RArrowIn.png" alt="Вперёд" class="inactive-arrow">
+                </a>
+            </nav>
+        </article>
+	<p class="kodak">KODAK CAMERA</p>
+    <h1 class="welcome">"Hello, I am John Doe</h1>
+	<h2 class="welcome welcome-to">Welcome to Retro, my wonderful theme!"</h2>
+	<br><br>
+	<div class="divider divider-3"></div> <!-- Нижняя линия -->
+  </section>
+
+
+
+<!-- Секция about -->
+  <section id="about" class="about">
+	<div class="divider reverse-3"></div> <!-- Верхняя линия  -->
+    <img class="imgabout" src="img/about.png" alt="about me" width="350" height="95"></img><br>
+	<img class="separator" src="img/separator.png" alt="separator">
+    <p class="subtitle">I am a graphic designer from Baltimore</p>
+    <div class="features">
+      <div class="feature">
+        <img class="icon" src="img/tveclipse.png"></img>
+        <h3>Movies</h3>
+        <p>WHAT I WATCH</p>
+		<img class="line" src="img/rectan.png" width="50" height="5"></img>
+        <p class="description">Clutter is honest! I do believe<br>
+<b>selfexpression</b>. Care. Things<br>
+that has to the users<br>
+which is a projector operating<br>
+system such formats are deep<br>
+and profound and meaningful.<br>
+It's the traditions of data.<span class="underlined">Good</span><br>
+<span class="underlined">design</span> should be different levels.<br>
+There's no rational alternative.<br>
+That's come to complexity.</p>
+      </div>
+      <div class="feature">
+        <img class="icon" src="img/vinyle.png"></img>
+        <h3>Music</h3>
+        <p>WHAT I LISTEN</p>
+		<img class="line" src="img/rectan.png" width="50" height="5"></img>
+        <p class="description">Good design. The content, you'll<br>love <b>powerpoint should be differ-<br>ent</b>. It's about design is that part?<br>
+Good design is making some-<br>thing looks. And aesthetic. And<br><span class="italic">colour defines</span> your interface.<br>
+That cannot be overtly different.<br>
+That has to chance. And<br>restrained, low resolution, but<br>you get rid of materials.</p>
+      </div>
+      <div class="feature">
+        <img class="icon" src="img/t-shirt.png"></img>
+        <h3>Clothes</h3>
+        <p>WHAT I WEAR</p>
+		<img class="line" src="img/rectan.png" width="50" height="5"></img>
+        <p class="description">Very honest approach and<br>
+		product. The <span class="underlined">other product</span> that<br>
+		changes function like the<br>
+		absence of function. And frus-<br>
+		trating that products that it's the<br>
+		functional imperative, we kept<br>
+		going and frustrating that we are<br>
+		about bringing order to be better<br>
+		and less complicated to<br>
+		understand.</p>
+      </div>
+      <div class="feature">
+        <img class="icon" src="img/food.png"></img>
+        <h3>Food</h3>
+        <p>WHAT I EAT</p>
+		<img class="line" src="img/rectan.png" width="50" height="5"></img>
+        <p class="description">Simplicity. Its context. From so<br>
+		many different levels. There's<br>
+		real simplicity is. Designing and<br>
+		place of the objects we're sur-<br>
+		rounded by seem trivial. There's<br>
+		<b>no rational alternative</b>. I think<br>
+		that's a very complicated<br>
+		problems without letting people<br>
+		have a very easy to mean so<br>
+		much that acknowledges.</p>
+      </div>
+    </div>
+	<br><br>
+	<div class="divider divider-5"></div> <!-- Нижняя -->
+  </section>
+
+
+<!-- Секция портфолио -->
+<section class="portfolio">
+	<div class="divider reverse-5"></div> <!-- Верхняя линия  -->
+	<img class="imgabout" src="img/portfolio.png" alt="about me" width="350" height="95"></img><br>
+	<img class="separator" src="img/separator.png" alt="separator">
+    <p class="subtitle">SIMPLICITY IS THE ULTIMATE SOPHISTICATION</p>
+ <div class="filters">
+	<p class="filter-label">Filter by</p>
+    <button class="design-tag">design</button>
+    <button class="logo-tag">logo</button>
+    <button class="photography-tag">photography</button>
+    <button class="poster-tag">poster</button>
+    <button class="resources-tag">resources</button>
+    <button class="retro-tag">retro</button>
+    <button class="t-shirts-tag">t-shirts</button>
+    <button class="videos-tag">videos</button>
+</div>
+
+  <div class="grid">
+    <!-- Первая строка  -->
+    <div class="grid-item">
+        <div class="frame-2">
+            <img src="img/placeholder21.jpg" alt="Placeholder" class="placeholder-2">
+            <img src="img/photo-icon.png" alt="Icon" class="icon-2">
+        </div>
+        <p class="caption">galleries are funny</p>
+    </div>
+
+    <div class="grid-item">
+        <div class="frame-2">
+            <img src="img/placeholder22.png" alt="Placeholder" class="placeholder-2">
+            <img src="img/tv-icon.png" alt="Icon" class="icon-2">
+        </div>
+        <p class="caption">a vimeo reel</p>
+    </div>
+
+    <div class="grid-item">
+        <div class="frame-2">
+            <img src="img/placeholder23.png" alt="Placeholder" class="placeholder-2">
+            <img src="img/sound-icon.png" alt="Icon" class="icon-2">
+        </div>
+        <p class="caption">love for old cameras</p>
+    </div>
+
+    <div class="grid-item">
+        <div class="frame-2">
+            <img src="img/placeholder24.jpg" alt="Placeholder" class="placeholder-2">
+            <img src="img/note-icon.png" alt="Icon" class="icon-2">
+        </div>
+        <p class="caption">detailed project page</p>
+    </div>
+
+    <!-- Вторая строка  -->
+    <div class="grid-item">
+        <div class="frame-2">
+            <img src="img/placeholder25.png" alt="Placeholder" class="placeholder-2">
+            <img src="img/tv-icon.png" alt="Icon" class="icon-2">
+        </div>
+        <p class="caption">youtube video</p>
+    </div>
+
+    <div class="grid-item">
+        <div class="frame-2">
+            <img src="img/placeholder26.jpg" alt="Placeholder" class="placeholder-2">
+            <img src="img/clip-icon.png" alt="Icon" class="icon-2">
+        </div>
+        <p class="caption">another external link</p>
+    </div>
+
+    <div class="grid-item">
+        <div class="frame-2">
+            <img src="img/placeholder27.jpg" alt="Placeholder" class="placeholder-2">
+            <img src="img/photo-icon.png" alt="Icon" class="icon-2">
+        </div>
+        <p class="caption">a lightbox image</p>
+    </div>
+
+    <div class="grid-item">
+        <div class="frame-2">
+            <img src="img/placeholder28.jpg" alt="Placeholder" class="placeholder-2">
+            <img src="img/sound-icon.png" alt="Icon" class="icon-2">
+        </div>
+        <p class="caption">the dark tempest</p>
+    </div>
+</div>
+	<img class="line" src="img/rectan.png" width="46" height="2.85" style="margin-top: 35px;"></img><br>
+  <button class="browse-all">BROWSE ALL</button>
+  <div class="divider divider-7"></div> <!-- Нижняя линия -->
+</section>
+
+
+<!-- Секция Блог -->
+ <section id="blog" class="blog-section">
+	<div class="divider reverse-7"></div> <!-- Верхняя линия  -->
+	<div class="blog-header"> 
+		<img class="imgabout" src="img/myblog.png" alt="my blog section" width="350" height="95"></img><br>
+		<img class="separator" src="img/separator.png" alt="separator">
+		<p class="subtitle">NEWS FROM MY HOUSE</p>
+	</div>
+	<div class="blog-container">
+  <div class="blog-posts">
+    <!-- Первая новость -->
+    <div class="blog-post">
+      <div class="post-image">
+        <div class="frame-blog">
+          <img src="img/placeholder22.jpg" alt="Blog post image" class="blog-photo">
+        </div>
+      </div>
+      <div class="post-content">
+        <h3 class="post-title">The Magic Wheel</h3>
+        <div class="post-meta">
+          <span class="post-date">JULY 28, 2014 // ADMIN // FUN, TRAVEL, TRENDS</span>
+          <span class="post-responses">1 RESPONSE</span>
+        </div>
+        <img src="img/rectan.png" class="line" width="50" height="3">
+        <p class="post-excerpt">It’s not it to understand them in the objects we’re playing. Products fulfilling a<br>
+		product more innovative, bullets grunts, powerful or stay at every multivariate<br>
+		spacetime point of analysis. People have enormous serial correlation. Good<br>
+		design is derived from so deep and then there's no other product useful.<button class="read-more">(MORE...)</button>
+		</p>
+      </div>
+    </div>
+	
+	<div class="blog-post">
+      <div class="post-image">
+        <div class="frame-blog">
+          <img src="img/placeholder24.jpg" alt="Blog post image" class="blog-photo">
+        </div>
+      </div>
+      <div class="post-content">
+        <h3 class="post-title">The lonely road</h3>
+        <div class="post-meta">
+          <span class="post-date">JULY 28, 2014 // ADMIN // FUN, TRAVEL, TRENDS, WEB DESIGN</span>
+          <span class="post-responses">3 RESPONSES</span>
+        </div>
+        <img src="img/rectan.png" class="line" width="50" height="3">
+        <p class="post-excerpt">If you've studied design at all, you've probably encountered Lorem Ipsum place-<br>
+		holder text at some point. Anywhere there is text, but the meaning of that text<br>
+		isn't particularly important, you might see Lorem Ipsum.<button class="read-more">(MORE...)</button><p>
+
+      </div>
+    </div>
+	
+	<div class="blog-post">
+      <div class="post-image">
+        <div class="frame-blog">
+          <img src="img/placeholder26.jpg" alt="Blog post image" class="blog-photo">
+        </div>
+      </div>
+      <div class="post-content">
+        <h3 class="post-title">I love gasoline smell</h3>
+        <div class="post-meta">
+          <span class="post-date">JULY 28, 2014 // ADMIN // FUN, TRENDS, WEB DESIGN</span>
+          <span class="post-responses">NO RESPONSES</span>
+        </div>
+        <img src="img/rectan.png" class="line" width="50" height="3">
+        <p class="post-excerpt">Many of the content, and often about their precious turfpossesed selves and<br>
+		principles are shortcoming of seeing and colors to cover up a paucity of design.<br>
+		Zero out your interface. I think that are deep and profound indeed, these tasks<br>
+		and showing.<button class="read-more">(MORE...)</button><p>
+      </div>
+	  <div class="divider divider-9"></div> <!-- Нижняя линия -->
+    </div>
+  </div>
+  </div>
+	<div class="blog-footer">
+		<img src="img/rectan.png" width="65" height="2.85" style="margin-top: 15px;"></img><br>
+		<button class="browse-all">SHOW ALL POSTS</button>
+	</div>
+</section>
+
+
+
+<!-- Секция contact me -->
+  <section id="contact" class="contact">
+	<div class="divider reverse-9"></div> <!-- Верхняя линия  -->
+	<div class="contact-header"> 
+		<img class="imgabout" src="img/contactme.png" alt="contact me section" width="350" height="85"></img><br>
+		<img class="separator" src="img/separator2.png" alt="separator">
+		<p class="subtitle" >I'll be glad to answer your questions</p>
+	</div>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email address" required />
+      <input type="text" placeholder="Subject" />
+      <textarea placeholder="Your message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+	<div class="contact-footer">
+		<p class="I-am-social">I am social</p><br>
+		<img src="img/rectan2.png" width="40" height="3" style="margin-top: -10px;"></img><br>
+	</div>
+
+    <div class="social-icons">
+      <span><a href="@"><img class="social-icon" src="img/social.png"></img></a></span>
+	  <span><a href="@"><img class="social-icon" src="img/social.png"></img></a></span>
+	  <span><a href="@"><img class="social-icon" src="img/social.png"></img></a></span>
+	  <span><a href="@"><img class="social-icon" src="img/social.png"></img></a></span>
+	  <span><a href="@"><img class="social-icon" src="img/social.png"></img></a></span>
+    </div>
+	<div class="divider divider-11"></div> <!-- Нижняя линия -->
+  </section>
+</body>
+</html>
